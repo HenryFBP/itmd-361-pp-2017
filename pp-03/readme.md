@@ -21,4 +21,4 @@ and takes up the entire viewport. An arrangement like this:
 order, spread equally across the entire viewport.
 
 5. Bragging rights if you can accomplish all of these without using flex item properties on all but the
-forth prompt of this problem.
+fourth prompt of this problem.
