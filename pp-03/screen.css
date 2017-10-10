@@ -28,13 +28,15 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* ==== LAYOUT STYLES ==== */
 #content {
-
+  display: flex;
+  flex-flow: wrap;
 }
 
 #three,
 #two,
 #one {
-
+  height: 33.333333333vw;
+  width:  100vh;
 }
 
 #three {
