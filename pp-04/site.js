@@ -44,8 +44,8 @@ try {
 //  as JavaScript comments.
 
 function addTwo(x) {
-  x = x + 2;
-  return x;
+  x = x + 2; //because x is passed as an argument, it is local to this function.
+  return x; //if our arg was called 'y', then we would be modifying _G.x 
 }
 
 console.log(addTwo(4)); // 6
