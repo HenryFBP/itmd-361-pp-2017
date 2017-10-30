@@ -30,7 +30,14 @@ function arrayEach(array, func) {
 
 arrayEach(['red','green','blue'], console.log);
 
-console.log(i) // should be 'undefined', not 3
+try {
+  console.log(i); // should be 'undefined', not 3
+} catch (e) {
+  console.log("doing \'console.log(i)\' errored:");
+  console.log(e);
+} finally {
+  
+}
 
 //  4. Explain why this function does not modify the global
 //  variable x declared on line 5 above. Write your explanation
